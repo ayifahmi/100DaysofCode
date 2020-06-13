@@ -1,0 +1,49 @@
+/*
+
+    THIS IS MY PRACTICE OF #100DaysofCode Challenge
+    Tutorial from a Youtube Channel called Fireship
+    link video:
+    https://www.youtube.com/watch?v=705XCEruZFs
+
+COLOR
+#f4f6ff
+#f2a365
+#30475e
+#222831
+
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+body {
+    background-color: #222831;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #f4f6ff;
+}
+
+.card {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    font-size: 3rem;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    background-color: #30475e;
+    color: #f4f6ff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    scale: 1;
+    transition: .3s ease-out;
+    box-shadow: 0 0.15rem 0.5rem #30475e;
+}
+
+.card:hover {
+    transform: translateY(-3px) scale(1.05);
+}
